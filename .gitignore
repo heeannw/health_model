@@ -1,0 +1,26 @@
+node_modules/
+**/node_modules/
+**/.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+.idea/
+**/.idea/
+.claude/settings.local.json
+.env
+.env.*
+!.env.example
+
+# Local database connection checks may contain credentials
+/dbcheck.js
+/dbcheck2.js
+/dbcheck3.js
+
+# Raw survey datasets are too large and may contain restricted data
+/KLoSA_Imputation_2023/
+/health_status_model/data/
+*.sas7bdat
+*.sav
+*.dta
+*.xlsx
+
